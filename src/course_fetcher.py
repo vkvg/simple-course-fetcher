@@ -96,7 +96,7 @@ def fetch_courses(url: str, save_to_file: bool=False, only_enabled: bool=False):
     if save_to_file == True:
         __save_to_file(json_data)
 
-# For testing purposes
+# For testing purposes, you might want to use this as a sample
 """ 
 if __name__ == "__main__":
     fetch_courses("https://studies.cs.helsinki.fi/stats-mock/api/courses/", True)
